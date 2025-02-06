@@ -3,13 +3,13 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f5f7fa;
+    background-color: #194a7a;
     color: #2d3748;
     line-height: 1.6;
 }
 
 .container {
-    background-color: white;
+    background-color: #476f95;
     padding: 2rem;
     border-radius: 16px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -25,7 +25,7 @@ h1 {
 }
 
 .info-section {
-    background-color: #f8fafc;
+    background-color: #7593af;
     padding: 1.5rem;
     border-radius: 12px;
     margin-bottom: 1.5rem;
@@ -39,7 +39,7 @@ h1 {
 input[type="text"] {
     width: 100%;
     padding: 0.75rem 1rem;
-    border: 2px solid #e2e8f0;
+    border: 2px solid #a3b7ca;
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -98,7 +98,7 @@ button:hover:not([disabled]) {
 }
 
 .decoded-section {
-    background-color: #f8f9fa;
+    background-color: #d1dbe4;
     padding: 15px;
     margin-top: 20px;
     border-radius: 4px;
@@ -106,12 +106,12 @@ button:hover:not([disabled]) {
 .stats {
     margin-top: 20px;
     padding: 10px;
-    background-color: #f1f8ff;
+    background-color: #d1dbe4;
     border-radius: 4px;
 }
 .holiday-list {
     margin-top: 20px;
-    background-color: #fff;
+    background-color: #d1dbe4;
     border: 1px solid #ededed;
     border-radius: 4px;
     padding: 15px;
