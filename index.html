@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SA Birthday Holiday Checker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Identification sytem</h1>
+        
+        <div class="info-section">
+            <p>Enter your South African ID Number to discover if your birthday coincides with any important public holidays and decode your ID information.</p>
+            <p>Format: YYMMDD GSSS CAZ</p>
+            <ul>
+                <li>YYMMDD: Date of birth</li>
+                <li>G: Gender (0-4: Female, 5-9: Male)</li>
+                <li>SSS: Citizenship status</li>
+                <li>C: 8 or 9 (South African citizen)</li>
+                <li>A: 0-9 (Usually 0)</li>
+                <li>Z: Control digit</li>
+            </ul>
+        </div>
+
+        <div class="input-group">
+            <label for="idNumber">ID Number:</label>
+            <input type="text" id="idNumber" placeholder="Enter your 13-digit ID number" oninput="validateIdNumber(this.value)">
+        </div>
+
+        <button id="searchBtn" onclick="checkHoliday()" disabled>Search</button>
+        <div id="result"></div>
+        <div id="decodedInfo" class="decoded-section"></div>
+    </div>
+    <div id="searchStats" class="stats"></div>
+    <div id="holidayList" class="holiday-list"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
