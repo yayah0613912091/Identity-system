@@ -1,0 +1,142 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: #1a202c;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.info-section {
+    background-color: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e2e8f0;
+}
+
+.input-group {
+    margin: 1.5rem 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+}
+
+button {
+    background-color: #4299e1;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #3182ce;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button:hover:not([disabled]) {
+    background-color: #2980b9;
+}
+
+#result, #decodedInfo {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.error {
+    background-color: #ffe6e6;
+    color: #d63031;
+}
+
+.success {
+    background-color: #e6ffe6;
+    color: #27ae60;
+}
+
+.decoded-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.stats {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f8ff;
+    border-radius: 4px;
+}
+.holiday-list {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.holiday-item {
+    padding: 9px;
+    border-bottom: 1px solid #eee;
+}
+
+.holiday-item:last-child {
+    border-bottom: none;
+}
+
+.holiday-date {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .container {
+        padding: 1.5rem;
+    }
+}
